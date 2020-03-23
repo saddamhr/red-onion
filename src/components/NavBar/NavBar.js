@@ -12,7 +12,7 @@ const NavBar = () => {
                 {/* cart icon */}
                 <span className='login'>Login</span>
                 {/* <button className='login'>Login</button> */}
-                <button className='signup-btn'>Sign Up</button>
+                <button className='SignupBtn'>Sign Up</button>
             </div>
         </div>
     );
