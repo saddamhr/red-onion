@@ -5,13 +5,14 @@ import logo from '../../images/logo.png'
 const NavBar = () => {
     return (
         <div className='NavBar'>
-            <div>
+            <div className='LeftNav'>
                 <img src={logo} alt=""/>
             </div>
-            <div>
+            <div className='RightNav'>
                 {/* cart icon */}
-                <button>Login</button>
-                <button>Sign Up</button>
+                <span className='login'>Login</span>
+                {/* <button className='login'>Login</button> */}
+                <button className='signup-btn'>Sign Up</button>
             </div>
         </div>
     );
