@@ -1,0 +1,22 @@
+.SingleFood {
+    margin-left: 120px;
+    width: 20%;
+    height: 320px;
+    box-shadow: 1px 1px 5px 3px gray;
+    padding: 10px;
+    /* margin: 10px; */
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+img {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 55px;
+    width: 60%;
+    /* align-items: center; */
+}
+
+.FoodInfo {
+    text-align: center;
+}

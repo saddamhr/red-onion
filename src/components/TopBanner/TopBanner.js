@@ -7,7 +7,7 @@ const TopBanner = () => {
             <h1>Best food waiting for your belly</h1>
 
             <form method="post" action="">
-                <input className='SearchBox' type="text" name="search-str" id="search-str" value="" placeholder='Search food items'/>
+                <input className='SearchBox' type="text"/>
                 <button className='SubmitBtn' type="submit">Search</button>
             </form>
         </div>

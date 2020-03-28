@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     background-image: url('../../images/bannerbackground.png');
+    background-size: cover;
 }
 
 h1 {
@@ -38,7 +39,7 @@ form {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     width: 250px;
-    color: wheat;
+    color: black;
 }
 
 .SubmitBtn {
